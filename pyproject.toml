@@ -8,9 +8,11 @@ dependencies = [
     "ddgs>=9.10.0",
     "duckduckgo-search>=8.1.1",
     "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
     "langchain-openai~=1.1.0",
     "langchain~=1.2.0",
     "langgraph>=1.0.7",
     "python-dotenv~=1.2.0",
+    "streamlit>=1.54.0",
     "wikipedia~=1.4.0",
 ]
