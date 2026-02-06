@@ -17,7 +17,7 @@
 * **Step 1:** clone this repo
 
 ```bash
-git clone git@github.com:Manideep0905/soulpage-genai-assignment-manideep.git
+git clone git@github.com:Manideep0905/Soulpage-genai-assignment-manideep.git
 ```
 ***
 <br>
