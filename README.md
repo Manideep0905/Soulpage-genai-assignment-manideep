@@ -5,7 +5,7 @@
 * It is also able to remember the previous messages of a conversation and provide answers for the follow up questions.
 
 ## Architecture
-![architecture diagram](./Conversational\ knowledge\ bot\ diagram.png)
+![architecture diagram](Conversational%20knowledge%20bot%20diagram.png)
 
 ## Tools used
 * langchain
@@ -14,36 +14,46 @@
 
 
 ## How to run the project
-* **Step 1:** clone this repo
+* **Step 1:** clone this repo and cd into it
 
 ```bash
-git clone git@github.com:Manideep0905/Soulpage-genai-assignment-manideep.git
+git clone https://github.com/Manideep0905/Soulpage-genai-assignment-manideep.git
 ```
 ***
 <br>
 
 * **Step 2:** Ensure uv is installed and run
 ```bash
-uv add -r requirements.txt
+uv sync
 ```
 ***
 <br>
 
-* **Step 3:** Here we are using a local model to answer the user's questions. This eliminates the need to use an api key for a model and it is free
+* **Step 3:** Activate your virtual environment
 
->Make sure [ollama](https://ollama.com/download) is installed and run the following command:
+>If you are on linux/macos, run:
+```bash
+source .venv/bin/activate
+```
+
+>If you are on windows, run:
+```bash
+.venv\Scripts\activate
+```
+***
+<br>
+
+* **Step 4:** Here we are using a local model to answer the user's questions. This eliminates the need to use an api key for a model and it is free
+
+>* Make sure [ollama](https://ollama.com/download) is installed and added to environment variables (if you are on windows):
+>* Then run the command below
 ```bash
 ollama pull llama3.2:3b
 ```
 ***
 <br>
 
-* **Step 4:** Now run
+* **Step 5:** Now run
 ```bash
 streamlit run app.py
 ```
-
-## Sample chat logs
-**User:** Who is the CEO of nvidia?
-
-**Bot:** 
